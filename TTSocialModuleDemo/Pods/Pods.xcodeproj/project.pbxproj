@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BF33A6B0D8C2F4B8F61EC7DAD8AABA2 /* Pods-TTSocialModuleDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D86284913D6ED1CAB91397F181DD5C74 /* Pods-TTSocialModuleDemoTests-dummy.m */; };
+		D18CAF1C69FB34F87664BA43773C5513 /* Pods-TTSocialModuleDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB98D4F4C72C69C198B110BEAD799C3 /* Pods-TTSocialModuleDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29B116C825B4E6EFA0D2D1281835E4C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58DF829EBA34142905A7E80A16C0DA73;
+			remoteInfo = "Pods-TTSocialModuleDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A6CFC7BF65DC70DAFF9F84247C56DA /* libPods-TTSocialModuleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTSocialModuleDemo.a"; path = "libPods-TTSocialModuleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E80FFC609B210650C89E1ADCBCB1780 /* Pods-TTSocialModuleDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSocialModuleDemoTests-resources.sh"; sourceTree = "<group>"; };
+		185B4DD83923663327C6007FD8FC8268 /* Pods-TTSocialModuleDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTSocialModuleDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1890FB490500AE693B11EFAB0D608BB1 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.4/libWeChatSDK.a; sourceTree = "<group>"; };
+		1951876F74CBF3C3F175C45470A03CDA /* Pods-TTSocialModuleDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTSocialModuleDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23FC023235B7465587FDE8F6E2FCDE01 /* libPods-TTSocialModuleDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTSocialModuleDemoTests.a"; path = "libPods-TTSocialModuleDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FFC31EAB450846A0E7D71813621B8E8 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		32E5C0C2BBC817F15B37F7D31B4D4C3D /* Pods-TTSocialModuleDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTSocialModuleDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BD722C0BDA45A636DBE16E9E433362F /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		409F0785B2BDD10681C11292DB2525D9 /* Pods-TTSocialModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSocialModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5AA9527B9174DA58D14F53D0D51CC060 /* Pods-TTSocialModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSocialModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6C6E4A03745182C618E50AB7532BB694 /* Pods-TTSocialModuleDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSocialModuleDemo-resources.sh"; sourceTree = "<group>"; };
+		77F46EC9E3C9C01640643FDFD8FE8464 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.4/WXApiObject.h; sourceTree = "<group>"; };
+		828032616DD2509D732776B5EDE0630E /* Pods-TTSocialModuleDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTSocialModuleDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		982D43E987430E1C76E7EBF0D4E600A5 /* Pods-TTSocialModuleDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSocialModuleDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		99B0197B456C113A5E38B61E90B1A55D /* Pods-TTSocialModuleDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSocialModuleDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		A6DD1A12AD8D17A96BAD06A2552A3561 /* Pods-TTSocialModuleDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSocialModuleDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABB98D4F4C72C69C198B110BEAD799C3 /* Pods-TTSocialModuleDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTSocialModuleDemo-dummy.m"; sourceTree = "<group>"; };
+		B86F6A2E055E49BE77A503B62A21F9BA /* Pods-TTSocialModuleDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSocialModuleDemo-frameworks.sh"; sourceTree = "<group>"; };
+		CF508728A4F106FDC784D1E7A66A5B86 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.4/WechatAuthSDK.h; sourceTree = "<group>"; };
+		CFCC92F2D6D282F519626E5186DD0237 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.4/WXApi.h; sourceTree = "<group>"; };
+		D86284913D6ED1CAB91397F181DD5C74 /* Pods-TTSocialModuleDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTSocialModuleDemoTests-dummy.m"; sourceTree = "<group>"; };
+		DE7FA385940233D79AAC24C71480CCCA /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		F29C22498BFBF89BB8543EE488DD2EF7 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C958C385938B6B7C9E0005A9DD8FDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19A9EEB6211A2D31E7908E2015CB125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13C172D28C98055461891852B6796D5B /* Pods-TTSocialModuleDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				32E5C0C2BBC817F15B37F7D31B4D4C3D /* Pods-TTSocialModuleDemoTests-acknowledgements.markdown */,
+				828032616DD2509D732776B5EDE0630E /* Pods-TTSocialModuleDemoTests-acknowledgements.plist */,
+				D86284913D6ED1CAB91397F181DD5C74 /* Pods-TTSocialModuleDemoTests-dummy.m */,
+				99B0197B456C113A5E38B61E90B1A55D /* Pods-TTSocialModuleDemoTests-frameworks.sh */,
+				0E80FFC609B210650C89E1ADCBCB1780 /* Pods-TTSocialModuleDemoTests-resources.sh */,
+				A6DD1A12AD8D17A96BAD06A2552A3561 /* Pods-TTSocialModuleDemoTests.debug.xcconfig */,
+				982D43E987430E1C76E7EBF0D4E600A5 /* Pods-TTSocialModuleDemoTests.release.xcconfig */,
+			);
+			name = "Pods-TTSocialModuleDemoTests";
+			path = "Target Support Files/Pods-TTSocialModuleDemoTests";
+			sourceTree = "<group>";
+		};
+		1D063564DBA0DFDA36C971BB97327DEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FFC31EAB450846A0E7D71813621B8E8 /* WeiboSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2410B71AB6C0E243088EE1EFEB69A35D /* Weibo_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F29C22498BFBF89BB8543EE488DD2EF7 /* WBHttpRequest.h */,
+				3BD722C0BDA45A636DBE16E9E433362F /* WeiboSDK.h */,
+				FF67C8F36447305DC4702981B58B8B7E /* Frameworks */,
+				1D063564DBA0DFDA36C971BB97327DEE /* Resources */,
+			);
+			name = Weibo_SDK;
+			path = Weibo_SDK;
+			sourceTree = "<group>";
+		};
+		2B30EC3540421B738F6C02BA91B8879A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02A6CFC7BF65DC70DAFF9F84247C56DA /* libPods-TTSocialModuleDemo.a */,
+				23FC023235B7465587FDE8F6E2FCDE01 /* libPods-TTSocialModuleDemoTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BAA120B6CEB1A3D5B6BA006D0E51BAC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C50A39F3FA5CD560BACD22758F74F011 /* Pods-TTSocialModuleDemo */,
+				13C172D28C98055461891852B6796D5B /* Pods-TTSocialModuleDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		410390C6B0AFE2CEAB55B0DBDD4F57C9 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CF508728A4F106FDC784D1E7A66A5B86 /* WechatAuthSDK.h */,
+				CFCC92F2D6D282F519626E5186DD0237 /* WXApi.h */,
+				77F46EC9E3C9C01640643FDFD8FE8464 /* WXApiObject.h */,
+				C0DD28DF5C0F9B8A334CC08EE0414669 /* Frameworks */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				F9B39F24F662A89975B32B14747F9925 /* Pods */,
+				2B30EC3540421B738F6C02BA91B8879A /* Products */,
+				2BAA120B6CEB1A3D5B6BA006D0E51BAC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C0DD28DF5C0F9B8A334CC08EE0414669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1890FB490500AE693B11EFAB0D608BB1 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C50A39F3FA5CD560BACD22758F74F011 /* Pods-TTSocialModuleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1951876F74CBF3C3F175C45470A03CDA /* Pods-TTSocialModuleDemo-acknowledgements.markdown */,
+				185B4DD83923663327C6007FD8FC8268 /* Pods-TTSocialModuleDemo-acknowledgements.plist */,
+				ABB98D4F4C72C69C198B110BEAD799C3 /* Pods-TTSocialModuleDemo-dummy.m */,
+				B86F6A2E055E49BE77A503B62A21F9BA /* Pods-TTSocialModuleDemo-frameworks.sh */,
+				6C6E4A03745182C618E50AB7532BB694 /* Pods-TTSocialModuleDemo-resources.sh */,
+				409F0785B2BDD10681C11292DB2525D9 /* Pods-TTSocialModuleDemo.debug.xcconfig */,
+				5AA9527B9174DA58D14F53D0D51CC060 /* Pods-TTSocialModuleDemo.release.xcconfig */,
+			);
+			name = "Pods-TTSocialModuleDemo";
+			path = "Target Support Files/Pods-TTSocialModuleDemo";
+			sourceTree = "<group>";
+		};
+		F9B39F24F662A89975B32B14747F9925 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				410390C6B0AFE2CEAB55B0DBDD4F57C9 /* WechatOpenSDK */,
+				2410B71AB6C0E243088EE1EFEB69A35D /* Weibo_SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF67C8F36447305DC4702981B58B8B7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE7FA385940233D79AAC24C71480CCCA /* libWeiboSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EBF1126F49F7E9A6561F5FFC6FBD0E1 /* Pods-TTSocialModuleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AB56B21DBA4D7C40E1CE4D5B91691B /* Build configuration list for PBXNativeTarget "Pods-TTSocialModuleDemoTests" */;
+			buildPhases = (
+				3DA8445E892F8CB99A7526F1736794D2 /* Sources */,
+				8C958C385938B6B7C9E0005A9DD8FDBD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8C33C37BFB595108DEC97E6D2DDCA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTSocialModuleDemoTests";
+			productName = "Pods-TTSocialModuleDemoTests";
+			productReference = 23FC023235B7465587FDE8F6E2FCDE01 /* libPods-TTSocialModuleDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		58DF829EBA34142905A7E80A16C0DA73 /* Pods-TTSocialModuleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4524E2704945D1DBDE0A22562D06EE /* Build configuration list for PBXNativeTarget "Pods-TTSocialModuleDemo" */;
+			buildPhases = (
+				628947BAD6EC952E93CFD6DF8C9F7F48 /* Sources */,
+				C19A9EEB6211A2D31E7908E2015CB125 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TTSocialModuleDemo";
+			productName = "Pods-TTSocialModuleDemo";
+			productReference = 02A6CFC7BF65DC70DAFF9F84247C56DA /* libPods-TTSocialModuleDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2B30EC3540421B738F6C02BA91B8879A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58DF829EBA34142905A7E80A16C0DA73 /* Pods-TTSocialModuleDemo */,
+				3EBF1126F49F7E9A6561F5FFC6FBD0E1 /* Pods-TTSocialModuleDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA8445E892F8CB99A7526F1736794D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF33A6B0D8C2F4B8F61EC7DAD8AABA2 /* Pods-TTSocialModuleDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628947BAD6EC952E93CFD6DF8C9F7F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18CAF1C69FB34F87664BA43773C5513 /* Pods-TTSocialModuleDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8C33C37BFB595108DEC97E6D2DDCA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TTSocialModuleDemo";
+			target = 58DF829EBA34142905A7E80A16C0DA73 /* Pods-TTSocialModuleDemo */;
+			targetProxy = 29B116C825B4E6EFA0D2D1281835E4C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CB94D4A7D4B0B4414C0DCD7DBCD65EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6DD1A12AD8D17A96BAD06A2552A3561 /* Pods-TTSocialModuleDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7482B1EDDAD2EBD208BBCF5FA661C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409F0785B2BDD10681C11292DB2525D9 /* Pods-TTSocialModuleDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE9BACD74C432EB50F7F397022468A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA9527B9174DA58D14F53D0D51CC060 /* Pods-TTSocialModuleDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FF112152CA72BA444DF5CE144B33203A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982D43E987430E1C76E7EBF0D4E600A5 /* Pods-TTSocialModuleDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4524E2704945D1DBDE0A22562D06EE /* Build configuration list for PBXNativeTarget "Pods-TTSocialModuleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7482B1EDDAD2EBD208BBCF5FA661C4 /* Debug */,
+				DE9BACD74C432EB50F7F397022468A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93AB56B21DBA4D7C40E1CE4D5B91691B /* Build configuration list for PBXNativeTarget "Pods-TTSocialModuleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB94D4A7D4B0B4414C0DCD7DBCD65EE7 /* Debug */,
+				FF112152CA72BA444DF5CE144B33203A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
