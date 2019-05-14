@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		399E463D5DCEE9B37C82A275 /* libPods-TTSocialModuleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A4FD948CCA3B0CD83027EE /* libPods-TTSocialModuleTests.a */; };
+		9F707106228A8C0E0014F132 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707105228A8C0E0014F132 /* AppDelegate.m */; };
+		9F707109228A8C0E0014F132 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707108228A8C0E0014F132 /* ViewController.m */; };
+		9F70710C228A8C0E0014F132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F70710A228A8C0E0014F132 /* Main.storyboard */; };
+		9F70710E228A8C0F0014F132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F70710D228A8C0F0014F132 /* Assets.xcassets */; };
+		9F707111228A8C0F0014F132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F70710F228A8C0F0014F132 /* LaunchScreen.storyboard */; };
+		9F707114228A8C0F0014F132 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707113228A8C0F0014F132 /* main.m */; };
+		9F70711E228A8C0F0014F132 /* TTSocialModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70711D228A8C0F0014F132 /* TTSocialModuleTests.m */; };
+		9F70712D228A8CAF0014F132 /* TTSocialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70712C228A8CAF0014F132 /* TTSocialManager.m */; };
+		9F707130228A8CD20014F132 /* TTSocialMessageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70712F228A8CD20014F132 /* TTSocialMessageObject.m */; };
+		9F707133228A8CEA0014F132 /* TTSocialResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707132228A8CEA0014F132 /* TTSocialResponse.m */; };
+		9F707139228A8D750014F132 /* TTSocialHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707138228A8D750014F132 /* TTSocialHandler.m */; };
+		9F70713C228A8E060014F132 /* TTWeChatHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70713B228A8E060014F132 /* TTWeChatHandler.m */; };
+		9F70713F228A8E110014F132 /* TTWeiboHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70713E228A8E110014F132 /* TTWeiboHandler.m */; };
+		9F707143228A8E480014F132 /* TTWeChatShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707142228A8E480014F132 /* TTWeChatShared.m */; };
+		9F707146228A8E540014F132 /* TTWeiboShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707145228A8E540014F132 /* TTWeiboShared.m */; };
+		9F707149228A8E6C0014F132 /* TTWeChatAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707148228A8E6C0014F132 /* TTWeChatAuth.m */; };
+		9F70714C228A8E770014F132 /* TTWeiboAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70714B228A8E770014F132 /* TTWeiboAuth.m */; };
+		9F707152228A97840014F132 /* TTShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707151228A97840014F132 /* TTShared.m */; };
+		9F707155228AA2BC0014F132 /* TTSocialUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707154228AA2BC0014F132 /* TTSocialUtil.m */; };
+		F6DE498E225FF589E474C274 /* libPods-TTSocialModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E69DDE9E5C39FF2DFE4152B /* libPods-TTSocialModule.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F70711A228A8C0F0014F132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F7070F9228A8C0E0014F132 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F707100228A8C0E0014F132;
+			remoteInfo = TTSocialModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E69DDE9E5C39FF2DFE4152B /* libPods-TTSocialModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTSocialModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28298724C55D1E1599DA3CCB /* Pods-TTSocialModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSocialModuleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTSocialModuleTests/Pods-TTSocialModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+		35A4FD948CCA3B0CD83027EE /* libPods-TTSocialModuleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTSocialModuleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CED4A149478191A5076128 /* Pods-TTSocialModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSocialModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTSocialModule/Pods-TTSocialModule.release.xcconfig"; sourceTree = "<group>"; };
+		70E7CF7F0917470484E74388 /* Pods-TTSocialModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSocialModuleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTSocialModuleTests/Pods-TTSocialModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F707101228A8C0E0014F132 /* TTSocialModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSocialModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F707104228A8C0E0014F132 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F707105228A8C0E0014F132 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F707107228A8C0E0014F132 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F707108228A8C0E0014F132 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F70710B228A8C0E0014F132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F70710D228A8C0F0014F132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F707110228A8C0F0014F132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F707112228A8C0F0014F132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F707113228A8C0F0014F132 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F707119228A8C0F0014F132 /* TTSocialModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTSocialModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F70711D228A8C0F0014F132 /* TTSocialModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSocialModuleTests.m; sourceTree = "<group>"; };
+		9F70711F228A8C0F0014F132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F70712A228A8C9B0014F132 /* TTBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTBehavior.h; sourceTree = "<group>"; };
+		9F70712B228A8CAE0014F132 /* TTSocialManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSocialManager.h; sourceTree = "<group>"; };
+		9F70712C228A8CAF0014F132 /* TTSocialManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSocialManager.m; sourceTree = "<group>"; };
+		9F70712E228A8CD20014F132 /* TTSocialMessageObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSocialMessageObject.h; sourceTree = "<group>"; };
+		9F70712F228A8CD20014F132 /* TTSocialMessageObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSocialMessageObject.m; sourceTree = "<group>"; };
+		9F707131228A8CEA0014F132 /* TTSocialResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSocialResponse.h; sourceTree = "<group>"; };
+		9F707132228A8CEA0014F132 /* TTSocialResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSocialResponse.m; sourceTree = "<group>"; };
+		9F707137228A8D750014F132 /* TTSocialHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSocialHandler.h; sourceTree = "<group>"; };
+		9F707138228A8D750014F132 /* TTSocialHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSocialHandler.m; sourceTree = "<group>"; };
+		9F70713A228A8E060014F132 /* TTWeChatHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTWeChatHandler.h; sourceTree = "<group>"; };
+		9F70713B228A8E060014F132 /* TTWeChatHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTWeChatHandler.m; sourceTree = "<group>"; };
+		9F70713D228A8E110014F132 /* TTWeiboHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTWeiboHandler.h; sourceTree = "<group>"; };
+		9F70713E228A8E110014F132 /* TTWeiboHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTWeiboHandler.m; sourceTree = "<group>"; };
+		9F707141228A8E480014F132 /* TTWeChatShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTWeChatShared.h; sourceTree = "<group>"; };
+		9F707142228A8E480014F132 /* TTWeChatShared.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTWeChatShared.m; sourceTree = "<group>"; };
+		9F707144228A8E540014F132 /* TTWeiboShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTWeiboShared.h; sourceTree = "<group>"; };
+		9F707145228A8E540014F132 /* TTWeiboShared.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTWeiboShared.m; sourceTree = "<group>"; };
+		9F707147228A8E6C0014F132 /* TTWeChatAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTWeChatAuth.h; sourceTree = "<group>"; };
+		9F707148228A8E6C0014F132 /* TTWeChatAuth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTWeChatAuth.m; sourceTree = "<group>"; };
+		9F70714A228A8E770014F132 /* TTWeiboAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTWeiboAuth.h; sourceTree = "<group>"; };
+		9F70714B228A8E770014F132 /* TTWeiboAuth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTWeiboAuth.m; sourceTree = "<group>"; };
+		9F70714F228A8ED90014F132 /* TTSocialDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSocialDefine.h; sourceTree = "<group>"; };
+		9F707150228A97840014F132 /* TTShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTShared.h; sourceTree = "<group>"; };
+		9F707151228A97840014F132 /* TTShared.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTShared.m; sourceTree = "<group>"; };
+		9F707153228AA2BC0014F132 /* TTSocialUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSocialUtil.h; sourceTree = "<group>"; };
+		9F707154228AA2BC0014F132 /* TTSocialUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSocialUtil.m; sourceTree = "<group>"; };
+		B23B027E209BFCF89F6A67C1 /* Pods-TTSocialModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSocialModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTSocialModule/Pods-TTSocialModule.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F7070FE228A8C0E0014F132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DE498E225FF589E474C274 /* libPods-TTSocialModule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F707116228A8C0F0014F132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399E463D5DCEE9B37C82A275 /* libPods-TTSocialModuleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113BD79BEF6ABD9C7B08CA32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B23B027E209BFCF89F6A67C1 /* Pods-TTSocialModule.debug.xcconfig */,
+				58CED4A149478191A5076128 /* Pods-TTSocialModule.release.xcconfig */,
+				70E7CF7F0917470484E74388 /* Pods-TTSocialModuleTests.debug.xcconfig */,
+				28298724C55D1E1599DA3CCB /* Pods-TTSocialModuleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57F6A1338ECF18CF5E1EAA96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E69DDE9E5C39FF2DFE4152B /* libPods-TTSocialModule.a */,
+				35A4FD948CCA3B0CD83027EE /* libPods-TTSocialModuleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F7070F8228A8C0E0014F132 = {
+			isa = PBXGroup;
+			children = (
+				9F707103228A8C0E0014F132 /* TTSocialModule */,
+				9F70711C228A8C0F0014F132 /* TTSocialModuleTests */,
+				9F707102228A8C0E0014F132 /* Products */,
+				113BD79BEF6ABD9C7B08CA32 /* Pods */,
+				57F6A1338ECF18CF5E1EAA96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F707102228A8C0E0014F132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F707101228A8C0E0014F132 /* TTSocialModule.app */,
+				9F707119228A8C0F0014F132 /* TTSocialModuleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F707103228A8C0E0014F132 /* TTSocialModule */ = {
+			isa = PBXGroup;
+			children = (
+				9F707128228A8C330014F132 /* Classes */,
+				9F707104228A8C0E0014F132 /* AppDelegate.h */,
+				9F707105228A8C0E0014F132 /* AppDelegate.m */,
+				9F707107228A8C0E0014F132 /* ViewController.h */,
+				9F707108228A8C0E0014F132 /* ViewController.m */,
+				9F70710A228A8C0E0014F132 /* Main.storyboard */,
+				9F70710D228A8C0F0014F132 /* Assets.xcassets */,
+				9F70710F228A8C0F0014F132 /* LaunchScreen.storyboard */,
+				9F707112228A8C0F0014F132 /* Info.plist */,
+				9F707113228A8C0F0014F132 /* main.m */,
+			);
+			path = TTSocialModule;
+			sourceTree = "<group>";
+		};
+		9F70711C228A8C0F0014F132 /* TTSocialModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F70711D228A8C0F0014F132 /* TTSocialModuleTests.m */,
+				9F70711F228A8C0F0014F132 /* Info.plist */,
+			);
+			path = TTSocialModuleTests;
+			sourceTree = "<group>";
+		};
+		9F707128228A8C330014F132 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9F70712A228A8C9B0014F132 /* TTBehavior.h */,
+				9F70714F228A8ED90014F132 /* TTSocialDefine.h */,
+				9F70712B228A8CAE0014F132 /* TTSocialManager.h */,
+				9F70712C228A8CAF0014F132 /* TTSocialManager.m */,
+				9F70712E228A8CD20014F132 /* TTSocialMessageObject.h */,
+				9F70712F228A8CD20014F132 /* TTSocialMessageObject.m */,
+				9F707131228A8CEA0014F132 /* TTSocialResponse.h */,
+				9F707132228A8CEA0014F132 /* TTSocialResponse.m */,
+				9F707153228AA2BC0014F132 /* TTSocialUtil.h */,
+				9F707154228AA2BC0014F132 /* TTSocialUtil.m */,
+				9F707140228A8E170014F132 /* Handler */,
+				9F70714D228A8E7F0014F132 /* Shared */,
+				9F70714E228A8E890014F132 /* Auth */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9F707140228A8E170014F132 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				9F707137228A8D750014F132 /* TTSocialHandler.h */,
+				9F707138228A8D750014F132 /* TTSocialHandler.m */,
+				9F70713A228A8E060014F132 /* TTWeChatHandler.h */,
+				9F70713B228A8E060014F132 /* TTWeChatHandler.m */,
+				9F70713D228A8E110014F132 /* TTWeiboHandler.h */,
+				9F70713E228A8E110014F132 /* TTWeiboHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		9F70714D228A8E7F0014F132 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9F707150228A97840014F132 /* TTShared.h */,
+				9F707151228A97840014F132 /* TTShared.m */,
+				9F707141228A8E480014F132 /* TTWeChatShared.h */,
+				9F707142228A8E480014F132 /* TTWeChatShared.m */,
+				9F707144228A8E540014F132 /* TTWeiboShared.h */,
+				9F707145228A8E540014F132 /* TTWeiboShared.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9F70714E228A8E890014F132 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				9F707147228A8E6C0014F132 /* TTWeChatAuth.h */,
+				9F707148228A8E6C0014F132 /* TTWeChatAuth.m */,
+				9F70714A228A8E770014F132 /* TTWeiboAuth.h */,
+				9F70714B228A8E770014F132 /* TTWeiboAuth.m */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F707100228A8C0E0014F132 /* TTSocialModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F707122228A8C0F0014F132 /* Build configuration list for PBXNativeTarget "TTSocialModule" */;
+			buildPhases = (
+				1656B24AE9D07FF839371B1B /* [CP] Check Pods Manifest.lock */,
+				9F7070FD228A8C0E0014F132 /* Sources */,
+				9F7070FE228A8C0E0014F132 /* Frameworks */,
+				9F7070FF228A8C0E0014F132 /* Resources */,
+				6C2FD4B562B5A7CD9F4E3EA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSocialModule;
+			productName = TTSocialModule;
+			productReference = 9F707101228A8C0E0014F132 /* TTSocialModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F707118228A8C0F0014F132 /* TTSocialModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F707125228A8C0F0014F132 /* Build configuration list for PBXNativeTarget "TTSocialModuleTests" */;
+			buildPhases = (
+				8B8E2D1CF2AE4A287FCA87F2 /* [CP] Check Pods Manifest.lock */,
+				9F707115228A8C0F0014F132 /* Sources */,
+				9F707116228A8C0F0014F132 /* Frameworks */,
+				9F707117228A8C0F0014F132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F70711B228A8C0F0014F132 /* PBXTargetDependency */,
+			);
+			name = TTSocialModuleTests;
+			productName = TTSocialModuleTests;
+			productReference = 9F707119228A8C0F0014F132 /* TTSocialModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F7070F9228A8C0E0014F132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TT;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ColaBeanLab;
+				TargetAttributes = {
+					9F707100228A8C0E0014F132 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9F707118228A8C0F0014F132 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9F707100228A8C0E0014F132;
+					};
+				};
+			};
+			buildConfigurationList = 9F7070FC228A8C0E0014F132 /* Build configuration list for PBXProject "TTSocialModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F7070F8228A8C0E0014F132;
+			productRefGroup = 9F707102228A8C0E0014F132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F707100228A8C0E0014F132 /* TTSocialModule */,
+				9F707118228A8C0F0014F132 /* TTSocialModuleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F7070FF228A8C0E0014F132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F707111228A8C0F0014F132 /* LaunchScreen.storyboard in Resources */,
+				9F70710E228A8C0F0014F132 /* Assets.xcassets in Resources */,
+				9F70710C228A8C0E0014F132 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F707117228A8C0F0014F132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1656B24AE9D07FF839371B1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTSocialModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C2FD4B562B5A7CD9F4E3EA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TTSocialModule/Pods-TTSocialModule-resources.sh",
+				"${PODS_ROOT}/Weibo_SDK/libWeiboSDK/WeiboSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTSocialModule/Pods-TTSocialModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B8E2D1CF2AE4A287FCA87F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTSocialModuleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F7070FD228A8C0E0014F132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F707109228A8C0E0014F132 /* ViewController.m in Sources */,
+				9F707133228A8CEA0014F132 /* TTSocialResponse.m in Sources */,
+				9F707114228A8C0F0014F132 /* main.m in Sources */,
+				9F70714C228A8E770014F132 /* TTWeiboAuth.m in Sources */,
+				9F707146228A8E540014F132 /* TTWeiboShared.m in Sources */,
+				9F70712D228A8CAF0014F132 /* TTSocialManager.m in Sources */,
+				9F707143228A8E480014F132 /* TTWeChatShared.m in Sources */,
+				9F707155228AA2BC0014F132 /* TTSocialUtil.m in Sources */,
+				9F707106228A8C0E0014F132 /* AppDelegate.m in Sources */,
+				9F707152228A97840014F132 /* TTShared.m in Sources */,
+				9F70713F228A8E110014F132 /* TTWeiboHandler.m in Sources */,
+				9F707130228A8CD20014F132 /* TTSocialMessageObject.m in Sources */,
+				9F70713C228A8E060014F132 /* TTWeChatHandler.m in Sources */,
+				9F707139228A8D750014F132 /* TTSocialHandler.m in Sources */,
+				9F707149228A8E6C0014F132 /* TTWeChatAuth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F707115228A8C0F0014F132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F70711E228A8C0F0014F132 /* TTSocialModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F70711B228A8C0F0014F132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F707100228A8C0E0014F132 /* TTSocialModule */;
+			targetProxy = 9F70711A228A8C0F0014F132 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F70710A228A8C0E0014F132 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F70710B228A8C0E0014F132 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F70710F228A8C0F0014F132 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F707110228A8C0F0014F132 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F707120228A8C0F0014F132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F707121228A8C0F0014F132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F707123228A8C0F0014F132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23B027E209BFCF89F6A67C1 /* Pods-TTSocialModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8FU724944;
+				INFOPLIST_FILE = TTSocialModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eju.mobile.leju.finance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F707124228A8C0F0014F132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CED4A149478191A5076128 /* Pods-TTSocialModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8FU724944;
+				INFOPLIST_FILE = TTSocialModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eju.mobile.leju.finance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F707126228A8C0F0014F132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E7CF7F0917470484E74388 /* Pods-TTSocialModuleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8FU724944;
+				INFOPLIST_FILE = TTSocialModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colabean.test.TTSocialModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTSocialModule.app/TTSocialModule";
+			};
+			name = Debug;
+		};
+		9F707127228A8C0F0014F132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28298724C55D1E1599DA3CCB /* Pods-TTSocialModuleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8FU724944;
+				INFOPLIST_FILE = TTSocialModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colabean.test.TTSocialModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTSocialModule.app/TTSocialModule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F7070FC228A8C0E0014F132 /* Build configuration list for PBXProject "TTSocialModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F707120228A8C0F0014F132 /* Debug */,
+				9F707121228A8C0F0014F132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F707122228A8C0F0014F132 /* Build configuration list for PBXNativeTarget "TTSocialModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F707123228A8C0F0014F132 /* Debug */,
+				9F707124228A8C0F0014F132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F707125228A8C0F0014F132 /* Build configuration list for PBXNativeTarget "TTSocialModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F707126228A8C0F0014F132 /* Debug */,
+				9F707127228A8C0F0014F132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F7070F9228A8C0E0014F132 /* Project object */;
+}
