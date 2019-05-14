@@ -166,19 +166,19 @@
 		9F707186228AB6CE0014F132 /* TTSocialModule */ = {
 			isa = PBXGroup;
 			children = (
-				9F707187228AB6CE0014F132 /* Handler */,
-				9F70718E228AB6CE0014F132 /* TTSocialResponse.h */,
 				9F70718F228AB6CE0014F132 /* TTBehavior.h */,
-				9F707190228AB6CE0014F132 /* TTSocialManager.h */,
-				9F707191228AB6CE0014F132 /* Auth */,
 				9F707196228AB6CE0014F132 /* TTSocialDefine.h */,
-				9F707197228AB6CE0014F132 /* TTSocialUtil.m */,
-				9F707198228AB6CE0014F132 /* TTSocialMessageObject.m */,
-				9F707199228AB6CE0014F132 /* Shared */,
-				9F7071A0228AB6CE0014F132 /* TTSocialResponse.m */,
+				9F707190228AB6CE0014F132 /* TTSocialManager.h */,
 				9F7071A1228AB6CE0014F132 /* TTSocialManager.m */,
-				9F7071A2228AB6CE0014F132 /* TTSocialUtil.h */,
 				9F7071A3228AB6CE0014F132 /* TTSocialMessageObject.h */,
+				9F707198228AB6CE0014F132 /* TTSocialMessageObject.m */,
+				9F70718E228AB6CE0014F132 /* TTSocialResponse.h */,
+				9F7071A0228AB6CE0014F132 /* TTSocialResponse.m */,
+				9F7071A2228AB6CE0014F132 /* TTSocialUtil.h */,
+				9F707197228AB6CE0014F132 /* TTSocialUtil.m */,
+				9F707187228AB6CE0014F132 /* Handler */,
+				9F707199228AB6CE0014F132 /* Shared */,
+				9F707191228AB6CE0014F132 /* Auth */,
 			);
 			name = TTSocialModule;
 			path = ../../TTSocialModule;
@@ -187,12 +187,12 @@
 		9F707187228AB6CE0014F132 /* Handler */ = {
 			isa = PBXGroup;
 			children = (
-				9F707188228AB6CE0014F132 /* TTWeiboHandler.m */,
-				9F707189228AB6CE0014F132 /* TTWeChatHandler.h */,
-				9F70718A228AB6CE0014F132 /* TTSocialHandler.m */,
 				9F70718B228AB6CE0014F132 /* TTSocialHandler.h */,
+				9F70718A228AB6CE0014F132 /* TTSocialHandler.m */,
+				9F707189228AB6CE0014F132 /* TTWeChatHandler.h */,
 				9F70718C228AB6CE0014F132 /* TTWeChatHandler.m */,
 				9F70718D228AB6CE0014F132 /* TTWeiboHandler.h */,
+				9F707188228AB6CE0014F132 /* TTWeiboHandler.m */,
 			);
 			path = Handler;
 			sourceTree = "<group>";
@@ -200,10 +200,10 @@
 		9F707191228AB6CE0014F132 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				9F707192228AB6CE0014F132 /* TTWeiboAuth.m */,
 				9F707193228AB6CE0014F132 /* TTWeChatAuth.h */,
-				9F707194228AB6CE0014F132 /* TTWeiboAuth.h */,
 				9F707195228AB6CE0014F132 /* TTWeChatAuth.m */,
+				9F707194228AB6CE0014F132 /* TTWeiboAuth.h */,
+				9F707192228AB6CE0014F132 /* TTWeiboAuth.m */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -211,12 +211,12 @@
 		9F707199228AB6CE0014F132 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				9F70719A228AB6CE0014F132 /* TTWeiboShared.h */,
 				9F70719B228AB6CE0014F132 /* TTShared.h */,
-				9F70719C228AB6CE0014F132 /* TTWeChatShared.h */,
-				9F70719D228AB6CE0014F132 /* TTWeiboShared.m */,
-				9F70719E228AB6CE0014F132 /* TTWeChatShared.m */,
 				9F70719F228AB6CE0014F132 /* TTShared.m */,
+				9F70719C228AB6CE0014F132 /* TTWeChatShared.h */,
+				9F70719E228AB6CE0014F132 /* TTWeChatShared.m */,
+				9F70719A228AB6CE0014F132 /* TTWeiboShared.h */,
+				9F70719D228AB6CE0014F132 /* TTWeiboShared.m */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
