@@ -17,10 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TTSocialResponse : NSObject
 
-/*
- 用户信息字段含义见：https://developer.umeng.com/docs/66632/detail/66825#h2-u7B2Cu4E09u65B9u5E73u53F0u767Bu5F558
- */
-
 @property (nonatomic, copy) NSString *uid;
 @property (nonatomic, copy) NSString *openid;
 @property (nonatomic, copy) NSString *unionid;
