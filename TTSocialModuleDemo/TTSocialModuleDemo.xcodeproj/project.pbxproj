@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2AC418FA68B1A1D17A3D42B5 /* libPods-TTSocialModuleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13005317F8136F544B4D49C6 /* libPods-TTSocialModuleDemo.a */; };
 		5E15B1475503BD597902E65E /* libPods-TTSocialModuleDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC90F726D18693F96A7043A0 /* libPods-TTSocialModuleDemoTests.a */; };
+		9F195311228C68A30053C6CA /* TTSocialUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F195310228C68A30053C6CA /* TTSocialUtil.m */; };
 		9F707164228AB5BE0014F132 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707163228AB5BE0014F132 /* AppDelegate.m */; };
 		9F707167228AB5BE0014F132 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707166228AB5BE0014F132 /* ViewController.m */; };
 		9F70716A228AB5BE0014F132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F707168228AB5BE0014F132 /* Main.storyboard */; };
@@ -21,7 +22,6 @@
 		9F7071A6228AB6CE0014F132 /* TTWeChatHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70718C228AB6CE0014F132 /* TTWeChatHandler.m */; };
 		9F7071A7228AB6CE0014F132 /* TTWeiboAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707192228AB6CE0014F132 /* TTWeiboAuth.m */; };
 		9F7071A8228AB6CE0014F132 /* TTWeChatAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707195228AB6CE0014F132 /* TTWeChatAuth.m */; };
-		9F7071A9228AB6CE0014F132 /* TTSocialUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707197228AB6CE0014F132 /* TTSocialUtil.m */; };
 		9F7071AA228AB6CE0014F132 /* TTSocialMessageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F707198228AB6CE0014F132 /* TTSocialMessageObject.m */; };
 		9F7071AB228AB6CE0014F132 /* TTWeiboShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70719D228AB6CE0014F132 /* TTWeiboShared.m */; };
 		9F7071AC228AB6CE0014F132 /* TTWeChatShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70719E228AB6CE0014F132 /* TTWeChatShared.m */; };
@@ -45,6 +45,8 @@
 		13005317F8136F544B4D49C6 /* libPods-TTSocialModuleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTSocialModuleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E52A04636420E5A361AA2F0 /* Pods-TTSocialModuleDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSocialModuleDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTSocialModuleDemoTests/Pods-TTSocialModuleDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D621B0A3384E1F9CA6849C2 /* Pods-TTSocialModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSocialModuleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTSocialModuleDemo/Pods-TTSocialModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9F19530F228C68A20053C6CA /* TTSocialUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSocialUtil.h; sourceTree = "<group>"; };
+		9F195310228C68A30053C6CA /* TTSocialUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSocialUtil.m; sourceTree = "<group>"; };
 		9F70715F228AB5BE0014F132 /* TTSocialModuleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSocialModuleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F707162228AB5BE0014F132 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F707163228AB5BE0014F132 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,7 +74,6 @@
 		9F707194228AB6CE0014F132 /* TTWeiboAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTWeiboAuth.h; sourceTree = "<group>"; };
 		9F707195228AB6CE0014F132 /* TTWeChatAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTWeChatAuth.m; sourceTree = "<group>"; };
 		9F707196228AB6CE0014F132 /* TTSocialDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSocialDefine.h; sourceTree = "<group>"; };
-		9F707197228AB6CE0014F132 /* TTSocialUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSocialUtil.m; sourceTree = "<group>"; };
 		9F707198228AB6CE0014F132 /* TTSocialMessageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSocialMessageObject.m; sourceTree = "<group>"; };
 		9F70719A228AB6CE0014F132 /* TTWeiboShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTWeiboShared.h; sourceTree = "<group>"; };
 		9F70719B228AB6CE0014F132 /* TTShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTShared.h; sourceTree = "<group>"; };
@@ -82,7 +83,6 @@
 		9F70719F228AB6CE0014F132 /* TTShared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTShared.m; sourceTree = "<group>"; };
 		9F7071A0228AB6CE0014F132 /* TTSocialResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSocialResponse.m; sourceTree = "<group>"; };
 		9F7071A1228AB6CE0014F132 /* TTSocialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSocialManager.m; sourceTree = "<group>"; };
-		9F7071A2228AB6CE0014F132 /* TTSocialUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSocialUtil.h; sourceTree = "<group>"; };
 		9F7071A3228AB6CE0014F132 /* TTSocialMessageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSocialMessageObject.h; sourceTree = "<group>"; };
 		DC90F726D18693F96A7043A0 /* libPods-TTSocialModuleDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTSocialModuleDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94FA88B31DDCF6E463E9625 /* Pods-TTSocialModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSocialModuleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTSocialModuleDemo/Pods-TTSocialModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,8 +174,8 @@
 				9F707198228AB6CE0014F132 /* TTSocialMessageObject.m */,
 				9F70718E228AB6CE0014F132 /* TTSocialResponse.h */,
 				9F7071A0228AB6CE0014F132 /* TTSocialResponse.m */,
-				9F7071A2228AB6CE0014F132 /* TTSocialUtil.h */,
-				9F707197228AB6CE0014F132 /* TTSocialUtil.m */,
+				9F19530F228C68A20053C6CA /* TTSocialUtil.h */,
+				9F195310228C68A30053C6CA /* TTSocialUtil.m */,
 				9F707187228AB6CE0014F132 /* Handler */,
 				9F707199228AB6CE0014F132 /* Shared */,
 				9F707191228AB6CE0014F132 /* Auth */,
@@ -393,13 +393,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F7071A5228AB6CE0014F132 /* TTSocialHandler.m in Sources */,
-				9F7071A9228AB6CE0014F132 /* TTSocialUtil.m in Sources */,
 				9F7071A7228AB6CE0014F132 /* TTWeiboAuth.m in Sources */,
 				9F7071AB228AB6CE0014F132 /* TTWeiboShared.m in Sources */,
 				9F7071AD228AB6CE0014F132 /* TTShared.m in Sources */,
 				9F707167228AB5BE0014F132 /* ViewController.m in Sources */,
 				9F707172228AB5BF0014F132 /* main.m in Sources */,
 				9F7071AC228AB6CE0014F132 /* TTWeChatShared.m in Sources */,
+				9F195311228C68A30053C6CA /* TTSocialUtil.m in Sources */,
 				9F7071AF228AB6CE0014F132 /* TTSocialManager.m in Sources */,
 				9F707164228AB5BE0014F132 /* AppDelegate.m in Sources */,
 				9F7071AE228AB6CE0014F132 /* TTSocialResponse.m in Sources */,

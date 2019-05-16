@@ -13,6 +13,9 @@
 #ifndef TTSocialDefine_h
 #define TTSocialDefine_h
 
+@import Foundation;
+@import UIKit;
+
 typedef NS_ENUM(NSUInteger, TTSocialPlatformType) {
     TTSocialPlatformTypeWeChatSession,
     TTSocialPlatformTypeWeChatTimeLine,

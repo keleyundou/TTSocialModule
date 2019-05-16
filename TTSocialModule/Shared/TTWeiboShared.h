@@ -11,7 +11,7 @@
 //
 
 #import "TTShared.h"
-#import <Weibo_SDK/WeiboSDK.h>
+#import "WeiboSDK.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -11,9 +11,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
 #import "TTSocialDefine.h"
-@import UIKit;
 
 NS_ASSUME_NONNULL_BEGIN
 @class TTSocialMessageObject;

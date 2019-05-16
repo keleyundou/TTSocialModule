@@ -11,8 +11,6 @@
 //
 
 #import <Foundation/Foundation.h>
-@import UIKit;
-
 #import "TTSocialDefine.h"
 
 NS_ASSUME_NONNULL_BEGIN

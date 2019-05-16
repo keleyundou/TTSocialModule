@@ -11,8 +11,7 @@
 //
 
 #import "TTShared.h"
-
-#import <WechatOpenSDK/WXApi.h>
+#import "WXApi.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

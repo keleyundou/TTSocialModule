@@ -12,29 +12,27 @@
 
 #import "TTSocialUtil.h"
 
-#import <WechatOpenSDK/WXApi.h>
-
 #import "TTSocialMessageObject.h"
 
 inline NSString *HandleWeChatRespErrorInfoCode(int errCode) {
     NSString *errStr = @"";
     switch (errCode) {
-        case WXSuccess:
+        case 0/*WXSuccess*/:
             errStr = TT_SOCIAL_SHARE_RESULT_STATUS_SEND_SUCCESS;
             break;
-        case WXErrCodeCommon:
+        case -1/*WXErrCodeCommon*/:
             errStr = @"普通错误类型";
             break;
-        case WXErrCodeUserCancel:
+        case -2/*WXErrCodeUserCancel*/:
             errStr = TT_SOCIAL_SHARE_RESULT_STATUS_SEND_CANCEL;
             break;
-        case WXErrCodeSentFail:
+        case -3/*WXErrCodeSentFail*/:
             errStr = TT_SOCIAL_SHARE_RESULT_STATUS_SEND_FAILURE;
             break;
-        case WXErrCodeAuthDeny:
+        case -4/*WXErrCodeAuthDeny*/:
             errStr = @"授权失败";
             break;
-        case WXErrCodeUnsupport:
+        case -5/*WXErrCodeUnsupport*/:
             errStr = @"微信不支持";
             break;
         default:
