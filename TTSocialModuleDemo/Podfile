@@ -9,7 +9,8 @@ target 'TTSocialModuleDemo' do
   # Pods for TTSocialModuleDemo
   pod 'WechatOpenSDK', '~> 1.8.4'
   pod 'Weibo_SDK', '~> 3.2.3'
-
+  pod 'TTSocialModule', :podspec => '../TTSocialModule.podspec'
+  
   target 'TTSocialModuleDemoTests' do
     inherit! :search_paths
     # Pods for testing
