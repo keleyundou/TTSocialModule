@@ -14,21 +14,22 @@
     "tag": "0.5"
   },
   "requires_arc": true,
+  "static_framework": true,
   "subspecs": [
     {
-      "name": "Common",
+      "name": "Base",
       "source_files": [
         "TTSocialModule/TT{Behavior,SocialDefine}.h",
-        "TTSocialModule/TT{SocialMessageObject,SocialResponse,SocialUtil}.{h,m}"
+        "TTSocialModule/TT{SocialMessageObject,SocialUtil,SocialResponse}.{h,m}"
       ],
-      "public_header_files": "TTSocialModule/TT{SocialMessageObject,SocialResponse,SocialUtil}.h"
+      "public_header_files": "TTSocialModule/TT{Behavior,SocialDefine,SocialMessageObject,SocialResponse}.h"
     },
     {
       "name": "Shared",
       "source_files": "TTSocialModule/Shared",
-      "public_header_files": "TTSocialModule/Shared/TT{WeChat,Weibo}Shared.{h}",
+      "private_header_files": "TTSocialModule/Shared/*.h",
       "dependencies": {
-        "TTSocialModule/Common": [
+        "TTSocialModule/Base": [
 
         ],
         "WechatOpenSDK": [
@@ -42,25 +43,35 @@
     {
       "name": "Handler",
       "source_files": "TTSocialModule/Handler",
+      "private_header_files": "TTSocialModule/Handler/*.h",
       "dependencies": {
-        "TTSocialModule/Common": [
-
-        ],
-        "TTSocialModule/Shared": [
+        "TTSocialModule/Base": [
 
         ]
+      },
+      "ios": {
+        "dependencies": {
+          "TTSocialModule/Shared": [
+
+          ]
+        }
       }
     },
     {
       "name": "Manager",
       "source_files": "TTSocialModule/TTSocialManager.{h,m}",
+      "public_header_files": "TTSocialModule/TTSocialManager.h",
       "dependencies": {
-        "TTSocialModule/Common": [
-
-        ],
-        "TTSocialModule/Handler": [
+        "TTSocialModule/Base": [
 
         ]
+      },
+      "ios": {
+        "dependencies": {
+          "TTSocialModule/Handler": [
+
+          ]
+        }
       }
     }
   ]

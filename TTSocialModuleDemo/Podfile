@@ -1,16 +1,16 @@
 # Uncomment the next line to define a global platform for your project
+#source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
-source 'https://github.com/CocoaPods/Specs.git'
+inhibit_all_warnings!
 
 target 'TTSocialModuleDemo' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
   # Pods for TTSocialModuleDemo
-  pod 'WechatOpenSDK', '~> 1.8.4'
-  pod 'Weibo_SDK', '~> 3.2.3'
-  pod 'TTSocialModule', :podspec => '../TTSocialModule.podspec'
+  pod 'TTSocialModule', :path => '../'
   
+
   target 'TTSocialModuleDemoTests' do
     inherit! :search_paths
     # Pods for testing

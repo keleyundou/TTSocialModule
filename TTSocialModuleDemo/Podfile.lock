@@ -1,20 +1,40 @@
 PODS:
+  - TTSocialModule (0.5):
+    - TTSocialModule/Base (= 0.5)
+    - TTSocialModule/Handler (= 0.5)
+    - TTSocialModule/Manager (= 0.5)
+    - TTSocialModule/Shared (= 0.5)
+  - TTSocialModule/Base (0.5)
+  - TTSocialModule/Handler (0.5):
+    - TTSocialModule/Base
+    - TTSocialModule/Shared
+  - TTSocialModule/Manager (0.5):
+    - TTSocialModule/Base
+    - TTSocialModule/Handler
+  - TTSocialModule/Shared (0.5):
+    - TTSocialModule/Base
+    - WechatOpenSDK (~> 1.8.4)
+    - Weibo_SDK (~> 3.2.3)
   - WechatOpenSDK (1.8.4)
   - Weibo_SDK (3.2.3)
 
 DEPENDENCIES:
-  - WechatOpenSDK (~> 1.8.4)
-  - Weibo_SDK (~> 3.2.3)
+  - TTSocialModule (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - WechatOpenSDK
     - Weibo_SDK
 
+EXTERNAL SOURCES:
+  TTSocialModule:
+    :path: "../"
+
 SPEC CHECKSUMS:
+  TTSocialModule: 5eb0ffda60d12a714ee4a8e03647635b1e840b3d
   WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
   Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
 
-PODFILE CHECKSUM: 512114362699441fbf86ff904f165a7dbfb8a406
+PODFILE CHECKSUM: 0c356ff3b4aad81b5e9ae43471b23d1927151efa
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

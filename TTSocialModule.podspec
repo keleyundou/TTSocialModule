@@ -81,6 +81,10 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/keleyundou/TTSocialModule.git", :tag => "#{spec.version}" }
+# spec.source = {	:git => 'https://github.com/keleyundou/TTSocialModule.git',
+#       :tag => "#{spec.version}",
+#       :branch => 'dev',
+#       :submodules => true }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,36 +100,38 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = "Classes/**/*.h"
 
-  spec.subspec 'Common' do |sp|
-    sp.source_files = 'TTSocialModule/TT{Behavior,SocialDefine}.h', 'TTSocialModule/TT{SocialMessageObject,SocialResponse,SocialUtil}.{h,m}'
-    sp.public_header_files = 'TTSocialModule/TT{SocialMessageObject,SocialResponse,SocialUtil}.h'
+  spec.subspec 'Base' do |sp|
+    sp.source_files = 'TTSocialModule/TT{Behavior,SocialDefine}.h', 'TTSocialModule/TT{SocialMessageObject,SocialUtil,SocialResponse}.{h,m}'
+    sp.public_header_files = 'TTSocialModule/TT{Behavior,SocialDefine,SocialMessageObject,SocialResponse}.h'
     
   end
-
+  
   spec.subspec 'Shared' do |sp|
     sp.source_files = 'TTSocialModule/Shared'
-    sp.public_header_files = 'TTSocialModule/Shared/TT{WeChat,Weibo}Shared.{h}'
+    sp.private_header_files = 'TTSocialModule/Shared/*.h'
     
-    sp.dependency 'TTSocialModule/Common'
-
+    sp.dependency 'TTSocialModule/Base'
+  
     sp.dependency 'WechatOpenSDK', '~> 1.8.4'
-    sp.dependency 'Weibo_SDK', '~> 3.2.3'    
-    
+    sp.dependency 'Weibo_SDK', '~> 3.2.3'
+  
   end
-
+  
   spec.subspec 'Handler' do |sp|
     sp.source_files = 'TTSocialModule/Handler'
+    sp.private_header_files = 'TTSocialModule/Handler/*.h'
     
-    sp.dependency 'TTSocialModule/Common'
-    sp.dependency 'TTSocialModule/Shared'
+    sp.dependency 'TTSocialModule/Base'
+    sp.ios.dependency 'TTSocialModule/Shared'
     
   end
-
+  
   spec.subspec 'Manager' do |sp|
     sp.source_files = 'TTSocialModule/TTSocialManager.{h,m}'
+    sp.public_header_files = 'TTSocialModule/TTSocialManager.h'
     
-    sp.dependency 'TTSocialModule/Common'
-    sp.dependency 'TTSocialModule/Handler'
+    sp.dependency 'TTSocialModule/Base'
+    sp.ios.dependency 'TTSocialModule/Handler'
     
   end
 
@@ -167,5 +173,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+
+  spec.static_framework = true
 
 end

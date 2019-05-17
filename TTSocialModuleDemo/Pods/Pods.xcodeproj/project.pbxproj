@@ -6,58 +6,172 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		3923A04B0B2CB2F2F76B4F17B4581449 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1202E393D5EF6CB6E3A7BCC7D0B975E3 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+		429A8066EE660F65D3101499EE00FD53 /* Weibo_SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 31C28255136A4A3B0B5B1560DB0CA94B /* Build configuration list for PBXAggregateTarget "Weibo_SDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Weibo_SDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		7BF33A6B0D8C2F4B8F61EC7DAD8AABA2 /* Pods-TTSocialModuleDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D86284913D6ED1CAB91397F181DD5C74 /* Pods-TTSocialModuleDemoTests-dummy.m */; };
-		D18CAF1C69FB34F87664BA43773C5513 /* Pods-TTSocialModuleDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB98D4F4C72C69C198B110BEAD799C3 /* Pods-TTSocialModuleDemo-dummy.m */; };
+		0A4CE5B2C0D4B5AED3C540112BA10A61 /* TTSocialHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C98F5D687B983B2241F10B4AC8D4084 /* TTSocialHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1324CFC2CC14770229009E4F8BBA42AC /* TTWeiboHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5EABFD7A080C188CACF39BA53A1F58 /* TTWeiboHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		156D581F91591AD0857FC0BDD0D6841A /* TTWeiboShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1FD4196B945EF444E74132FCBA81D8 /* TTWeiboShared.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D56B38C33C5CC56D23211C5B724F7B6 /* TTWeiboHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = ECFED183AA4EA4EFF15872F6142B5500 /* TTWeiboHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2166704520BC4FA41598F554810878E5 /* TTSocialManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 62705D9B36D00FA36A71D58707EA5BB1 /* TTSocialManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21E1757E8B5804AE40B8E62D2DD1613B /* TTSocialMessageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C4213BA15E25C1FE167FE26BECCE92CB /* TTSocialMessageObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2331EFD468733B83F03152C9499B2A48 /* TTShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E40631FCA9C3F4ED2384BF8AFE0218D /* TTShared.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2CEA7FDF98BC0F4D5BDC3AA313EE2C66 /* TTWeChatHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF1AC37E96DA8A5A41ACB6CF797577D /* TTWeChatHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4ACFB57F39092B7696E0341D56B4D5EB /* TTSocialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C9488BAA1DF33E59675E7C58445AF1 /* TTSocialManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4C76C67BA8B11F08D015B71EABAD2BB3 /* TTSocialUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BB725098749F515E669F64ED3AFB0 /* TTSocialUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		526C3C563B69E67AC738835B4AA74D87 /* TTWeChatHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FD2AB9D93585519BF6023431F071E3 /* TTWeChatHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5C83DF72A99CB5EAB66EA570276E3901 /* TTWeiboShared.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CE215E5A758749D65E770988F0B83D /* TTWeiboShared.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5F87A50C779A4F0674A7C6DF2113B8A7 /* TTBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 012108E9C9F644BEC5BA772948F9CE1D /* TTBehavior.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6FDA0523D65A018DF8046091599AA8E6 /* TTSocialModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01489A773908C145CB438913651995 /* TTSocialModule-dummy.m */; };
+		8B96C42CECAE06BB9F8D6F5F9B6AA2EC /* TTSocialMessageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3152680F5FFB3702C800570DDB4356E9 /* TTSocialMessageObject.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8C413AFC113926DFEB996FC7DC502A95 /* TTSocialResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 651EC068AA8073A11B91F83F3586E5CB /* TTSocialResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D13A2310CDF19AF2E4959D0B14DCEAB /* TTSocialHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F21B537C82DD557113C638528229556 /* TTSocialHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9090285747FF04A724213AB91FAD6D0F /* Pods-TTSocialModuleDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC239825A758669D751DD5EC6553BF4 /* Pods-TTSocialModuleDemo-dummy.m */; };
+		A74840B862599AFD9E1C6186FA7CF6FD /* Pods-TTSocialModuleDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA37BA3EED72CD3B5960E9AE5A5A82BA /* Pods-TTSocialModuleDemoTests-dummy.m */; };
+		B24E83E6A457E5920FE5B67ABBDD044C /* TTSocialUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA5176D940B12C24FC4829E3D3BF876 /* TTSocialUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9F87BA960AFD261C137048F15C72B42 /* TTWeChatShared.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D8DDA5F696F7A75C8357A47E5E65D5 /* TTWeChatShared.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BBE4ABD88D0C4697405B176B7C7BA74C /* TTSocialDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1F8499EEB78BE82E442BC6662DA4B9 /* TTSocialDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC90925AC19E1FEC6DE4122D79326D47 /* TTSocialResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ADCB8CD847F82DCF8531B9E7B4AB5B /* TTSocialResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D1F0F86B4885F332E297933836A03049 /* TTShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE55DF6736E7506B64C66A5E54D7FE8 /* TTShared.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E21043BFBC8A6398C2654E7C1F44D665 /* TTWeChatShared.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C0FB5AC7216867CEA621F57469A210 /* TTWeChatShared.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		29B116C825B4E6EFA0D2D1281835E4C4 /* PBXContainerItemProxy */ = {
+		287C9B8F4D2EED3A55C37969E6D3C721 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 58DF829EBA34142905A7E80A16C0DA73;
+			remoteGlobalIDString = D47088D8B9FA07CB212A6141B6D8D86E;
+			remoteInfo = TTSocialModule;
+		};
+		50C4A6A81881488266B0E4B237E7FAA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429A8066EE660F65D3101499EE00FD53;
+			remoteInfo = Weibo_SDK;
+		};
+		93321D82D4D30AE630DE404A0051CDA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429A8066EE660F65D3101499EE00FD53;
+			remoteInfo = Weibo_SDK;
+		};
+		C30DFDAE9D82C7908EAACC49D0B23802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3923A04B0B2CB2F2F76B4F17B4581449;
+			remoteInfo = WechatOpenSDK;
+		};
+		E4FA7EFB665CBEE2BE43E337F4AAA181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCE45E05B7BD9F6867E2016F9DE456E;
 			remoteInfo = "Pods-TTSocialModuleDemo";
+		};
+		EEA3021AABB28B79249C8DFC678B2A82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3923A04B0B2CB2F2F76B4F17B4581449;
+			remoteInfo = WechatOpenSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02A6CFC7BF65DC70DAFF9F84247C56DA /* libPods-TTSocialModuleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTSocialModuleDemo.a"; path = "libPods-TTSocialModuleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E80FFC609B210650C89E1ADCBCB1780 /* Pods-TTSocialModuleDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSocialModuleDemoTests-resources.sh"; sourceTree = "<group>"; };
-		185B4DD83923663327C6007FD8FC8268 /* Pods-TTSocialModuleDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTSocialModuleDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		1890FB490500AE693B11EFAB0D608BB1 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.4/libWeChatSDK.a; sourceTree = "<group>"; };
-		1951876F74CBF3C3F175C45470A03CDA /* Pods-TTSocialModuleDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTSocialModuleDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		23FC023235B7465587FDE8F6E2FCDE01 /* libPods-TTSocialModuleDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTSocialModuleDemoTests.a"; path = "libPods-TTSocialModuleDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FFC31EAB450846A0E7D71813621B8E8 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
-		32E5C0C2BBC817F15B37F7D31B4D4C3D /* Pods-TTSocialModuleDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTSocialModuleDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3BD722C0BDA45A636DBE16E9E433362F /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
-		409F0785B2BDD10681C11292DB2525D9 /* Pods-TTSocialModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSocialModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5AA9527B9174DA58D14F53D0D51CC060 /* Pods-TTSocialModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSocialModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
-		6C6E4A03745182C618E50AB7532BB694 /* Pods-TTSocialModuleDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSocialModuleDemo-resources.sh"; sourceTree = "<group>"; };
-		77F46EC9E3C9C01640643FDFD8FE8464 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.4/WXApiObject.h; sourceTree = "<group>"; };
-		828032616DD2509D732776B5EDE0630E /* Pods-TTSocialModuleDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTSocialModuleDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		982D43E987430E1C76E7EBF0D4E600A5 /* Pods-TTSocialModuleDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSocialModuleDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		99B0197B456C113A5E38B61E90B1A55D /* Pods-TTSocialModuleDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSocialModuleDemoTests-frameworks.sh"; sourceTree = "<group>"; };
-		A6DD1A12AD8D17A96BAD06A2552A3561 /* Pods-TTSocialModuleDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSocialModuleDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ABB98D4F4C72C69C198B110BEAD799C3 /* Pods-TTSocialModuleDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTSocialModuleDemo-dummy.m"; sourceTree = "<group>"; };
-		B86F6A2E055E49BE77A503B62A21F9BA /* Pods-TTSocialModuleDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSocialModuleDemo-frameworks.sh"; sourceTree = "<group>"; };
-		CF508728A4F106FDC784D1E7A66A5B86 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.4/WechatAuthSDK.h; sourceTree = "<group>"; };
-		CFCC92F2D6D282F519626E5186DD0237 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.4/WXApi.h; sourceTree = "<group>"; };
-		D86284913D6ED1CAB91397F181DD5C74 /* Pods-TTSocialModuleDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTSocialModuleDemoTests-dummy.m"; sourceTree = "<group>"; };
-		DE7FA385940233D79AAC24C71480CCCA /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
-		F29C22498BFBF89BB8543EE488DD2EF7 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		012108E9C9F644BEC5BA772948F9CE1D /* TTBehavior.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTBehavior.h; path = TTSocialModule/TTBehavior.h; sourceTree = "<group>"; };
+		06C9488BAA1DF33E59675E7C58445AF1 /* TTSocialManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTSocialManager.m; path = TTSocialModule/TTSocialManager.m; sourceTree = "<group>"; };
+		0C98F5D687B983B2241F10B4AC8D4084 /* TTSocialHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSocialHandler.h; path = TTSocialModule/Handler/TTSocialHandler.h; sourceTree = "<group>"; };
+		158CB1D4848771D86F6F56DD2FDB0F51 /* Pods-TTSocialModuleDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTSocialModuleDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E0968C7D90EE851B5A6AC6E379092A5 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.4/WXApi.h; sourceTree = "<group>"; };
+		2081F60EE4CCC0A0CA85AAF0A5DA724C /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		20D3B184584DB22856614E33359666D0 /* TTSocialModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTSocialModule-prefix.pch"; sourceTree = "<group>"; };
+		2E82CD748BB3629AEA293F8AA7E94FF9 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		3152680F5FFB3702C800570DDB4356E9 /* TTSocialMessageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTSocialMessageObject.m; path = TTSocialModule/TTSocialMessageObject.m; sourceTree = "<group>"; };
+		389B8FC378CD087D3A21155211A6CEF8 /* TTSocialModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTSocialModule.xcconfig; sourceTree = "<group>"; };
+		3CC239825A758669D751DD5EC6553BF4 /* Pods-TTSocialModuleDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTSocialModuleDemo-dummy.m"; sourceTree = "<group>"; };
+		3DA74637DE715ECD8CA92E80B4386A44 /* Pods-TTSocialModuleDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSocialModuleDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F21B537C82DD557113C638528229556 /* TTSocialHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTSocialHandler.m; path = TTSocialModule/Handler/TTSocialHandler.m; sourceTree = "<group>"; };
+		54AA2A9A7583736335D708E070097046 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		55F818DC49BD770F16F7D31580851B7F /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
+		5B1FD4196B945EF444E74132FCBA81D8 /* TTWeiboShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTWeiboShared.h; path = TTSocialModule/Shared/TTWeiboShared.h; sourceTree = "<group>"; };
+		5B2085AE5759C623ADD901894789F197 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.4/WXApiObject.h; sourceTree = "<group>"; };
+		5FF1AC37E96DA8A5A41ACB6CF797577D /* TTWeChatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTWeChatHandler.h; path = TTSocialModule/Handler/TTWeChatHandler.h; sourceTree = "<group>"; };
+		62705D9B36D00FA36A71D58707EA5BB1 /* TTSocialManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSocialManager.h; path = TTSocialModule/TTSocialManager.h; sourceTree = "<group>"; };
+		651EC068AA8073A11B91F83F3586E5CB /* TTSocialResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSocialResponse.h; path = TTSocialModule/TTSocialResponse.h; sourceTree = "<group>"; };
+		67CE5FB171C77B7BFEDCD5F23569DE4E /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.4/WechatAuthSDK.h; sourceTree = "<group>"; };
+		6AD385F1647756800179CB64A966683E /* Pods-TTSocialModuleDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTSocialModuleDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6FA5176D940B12C24FC4829E3D3BF876 /* TTSocialUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSocialUtil.h; path = TTSocialModule/TTSocialUtil.h; sourceTree = "<group>"; };
+		7A9739A6C76B96B04D273657F99A4CAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7AC7F5BA2EB45A5EC361ADF8F5E30070 /* TTSocialModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TTSocialModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7AE55DF6736E7506B64C66A5E54D7FE8 /* TTShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTShared.h; path = TTSocialModule/Shared/TTShared.h; sourceTree = "<group>"; };
+		88BF02DC1547F08AA2BA9C7FE6AE4015 /* Pods-TTSocialModuleDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSocialModuleDemo-resources.sh"; sourceTree = "<group>"; };
+		961BB725098749F515E669F64ED3AFB0 /* TTSocialUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTSocialUtil.m; path = TTSocialModule/TTSocialUtil.m; sourceTree = "<group>"; };
+		9B6AA7288E123CF258F850D02F7DE568 /* Pods-TTSocialModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSocialModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E40631FCA9C3F4ED2384BF8AFE0218D /* TTShared.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTShared.m; path = TTSocialModule/Shared/TTShared.m; sourceTree = "<group>"; };
+		AC8BD634214422A19DFA5EEF759D4360 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.4/libWeChatSDK.a; sourceTree = "<group>"; };
+		AE1F8499EEB78BE82E442BC6662DA4B9 /* TTSocialDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSocialDefine.h; path = TTSocialModule/TTSocialDefine.h; sourceTree = "<group>"; };
+		BA8F74BB03431489BDB40EBDCDFE56A5 /* libPods-TTSocialModuleDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTSocialModuleDemoTests.a"; path = "libPods-TTSocialModuleDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2F8071237F6E79F897731ADFA12A3A /* Weibo_SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Weibo_SDK.xcconfig; sourceTree = "<group>"; };
+		BD4FA7E5A4D6289EA62FBA1065B3F835 /* Pods-TTSocialModuleDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTSocialModuleDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C186794D9052E0A8E0B45A7AC599075B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C4213BA15E25C1FE167FE26BECCE92CB /* TTSocialMessageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSocialMessageObject.h; path = TTSocialModule/TTSocialMessageObject.h; sourceTree = "<group>"; };
+		C6C20DD0843F14D9AAA63CEE819DD57C /* Pods-TTSocialModuleDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSocialModuleDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1FD2AB9D93585519BF6023431F071E3 /* TTWeChatHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTWeChatHandler.m; path = TTSocialModule/Handler/TTWeChatHandler.m; sourceTree = "<group>"; };
+		D46EBDFA3E40DBC131550674438B2ACD /* libPods-TTSocialModuleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTSocialModuleDemo.a"; path = "libPods-TTSocialModuleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C0FB5AC7216867CEA621F57469A210 /* TTWeChatShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTWeChatShared.h; path = TTSocialModule/Shared/TTWeChatShared.h; sourceTree = "<group>"; };
+		D5CE215E5A758749D65E770988F0B83D /* TTWeiboShared.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTWeiboShared.m; path = TTSocialModule/Shared/TTWeiboShared.m; sourceTree = "<group>"; };
+		D639BE465F660945DDAA419193AC5A79 /* Pods-TTSocialModuleDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTSocialModuleDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA37BA3EED72CD3B5960E9AE5A5A82BA /* Pods-TTSocialModuleDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTSocialModuleDemoTests-dummy.m"; sourceTree = "<group>"; };
+		DB50E2E5B549F3D6B297C7D20CD7BCDC /* Pods-TTSocialModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSocialModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E4D8DDA5F696F7A75C8357A47E5E65D5 /* TTWeChatShared.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTWeChatShared.m; path = TTSocialModule/Shared/TTWeChatShared.m; sourceTree = "<group>"; };
+		E5ADCB8CD847F82DCF8531B9E7B4AB5B /* TTSocialResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTSocialResponse.m; path = TTSocialModule/TTSocialResponse.m; sourceTree = "<group>"; };
+		ECFED183AA4EA4EFF15872F6142B5500 /* TTWeiboHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTWeiboHandler.h; path = TTSocialModule/Handler/TTWeiboHandler.h; sourceTree = "<group>"; };
+		F0A1D2E346B00239516EECB41C1B18C7 /* libTTSocialModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTTSocialModule.a; path = libTTSocialModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB01489A773908C145CB438913651995 /* TTSocialModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTSocialModule-dummy.m"; sourceTree = "<group>"; };
+		FC04DA82505734F789375EED9C6E5FD7 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		FD5EABFD7A080C188CACF39BA53A1F58 /* TTWeiboHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTWeiboHandler.m; path = TTSocialModule/Handler/TTWeiboHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8C958C385938B6B7C9E0005A9DD8FDBD /* Frameworks */ = {
+		869F4ED490A142620F1DDA0A8366C877 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C19A9EEB6211A2D31E7908E2015CB125 /* Frameworks */ = {
+		CE6D4A2792F8BE3E25F3958BA17EC539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F919B3D3EA31258655E1B77372CB946E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,222 +181,495 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		00A4A709FF7DFDF67D9183627BB4A967 /* Handler */ = {
 			isa = PBXGroup;
 			children = (
+				0C98F5D687B983B2241F10B4AC8D4084 /* TTSocialHandler.h */,
+				4F21B537C82DD557113C638528229556 /* TTSocialHandler.m */,
+				5FF1AC37E96DA8A5A41ACB6CF797577D /* TTWeChatHandler.h */,
+				D1FD2AB9D93585519BF6023431F071E3 /* TTWeChatHandler.m */,
+				ECFED183AA4EA4EFF15872F6142B5500 /* TTWeiboHandler.h */,
+				FD5EABFD7A080C188CACF39BA53A1F58 /* TTWeiboHandler.m */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		0B5E523FBC7240F50CAA30F29189C3D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC8BD634214422A19DFA5EEF759D4360 /* libWeChatSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		13C172D28C98055461891852B6796D5B /* Pods-TTSocialModuleDemoTests */ = {
+		1793D22E1D95E3271480CFFA05BB6342 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				32E5C0C2BBC817F15B37F7D31B4D4C3D /* Pods-TTSocialModuleDemoTests-acknowledgements.markdown */,
-				828032616DD2509D732776B5EDE0630E /* Pods-TTSocialModuleDemoTests-acknowledgements.plist */,
-				D86284913D6ED1CAB91397F181DD5C74 /* Pods-TTSocialModuleDemoTests-dummy.m */,
-				99B0197B456C113A5E38B61E90B1A55D /* Pods-TTSocialModuleDemoTests-frameworks.sh */,
-				0E80FFC609B210650C89E1ADCBCB1780 /* Pods-TTSocialModuleDemoTests-resources.sh */,
-				A6DD1A12AD8D17A96BAD06A2552A3561 /* Pods-TTSocialModuleDemoTests.debug.xcconfig */,
-				982D43E987430E1C76E7EBF0D4E600A5 /* Pods-TTSocialModuleDemoTests.release.xcconfig */,
-			);
-			name = "Pods-TTSocialModuleDemoTests";
-			path = "Target Support Files/Pods-TTSocialModuleDemoTests";
-			sourceTree = "<group>";
-		};
-		1D063564DBA0DFDA36C971BB97327DEE /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2FFC31EAB450846A0E7D71813621B8E8 /* WeiboSDK.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		2410B71AB6C0E243088EE1EFEB69A35D /* Weibo_SDK */ = {
-			isa = PBXGroup;
-			children = (
-				F29C22498BFBF89BB8543EE488DD2EF7 /* WBHttpRequest.h */,
-				3BD722C0BDA45A636DBE16E9E433362F /* WeiboSDK.h */,
-				FF67C8F36447305DC4702981B58B8B7E /* Frameworks */,
-				1D063564DBA0DFDA36C971BB97327DEE /* Resources */,
-			);
-			name = Weibo_SDK;
-			path = Weibo_SDK;
-			sourceTree = "<group>";
-		};
-		2B30EC3540421B738F6C02BA91B8879A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				02A6CFC7BF65DC70DAFF9F84247C56DA /* libPods-TTSocialModuleDemo.a */,
-				23FC023235B7465587FDE8F6E2FCDE01 /* libPods-TTSocialModuleDemoTests.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2BAA120B6CEB1A3D5B6BA006D0E51BAC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C50A39F3FA5CD560BACD22758F74F011 /* Pods-TTSocialModuleDemo */,
-				13C172D28C98055461891852B6796D5B /* Pods-TTSocialModuleDemoTests */,
+				5A94FF7CDAC0AD884FEDB2B9456632A7 /* Pods-TTSocialModuleDemo */,
+				28D5FDE3E84638B0BF3653EA9CECF2DF /* Pods-TTSocialModuleDemoTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		410390C6B0AFE2CEAB55B0DBDD4F57C9 /* WechatOpenSDK */ = {
+		20B37F72CB1F436B5210D7B165AEBD0C /* WechatOpenSDK */ = {
 			isa = PBXGroup;
 			children = (
-				CF508728A4F106FDC784D1E7A66A5B86 /* WechatAuthSDK.h */,
-				CFCC92F2D6D282F519626E5186DD0237 /* WXApi.h */,
-				77F46EC9E3C9C01640643FDFD8FE8464 /* WXApiObject.h */,
-				C0DD28DF5C0F9B8A334CC08EE0414669 /* Frameworks */,
+				67CE5FB171C77B7BFEDCD5F23569DE4E /* WechatAuthSDK.h */,
+				1E0968C7D90EE851B5A6AC6E379092A5 /* WXApi.h */,
+				5B2085AE5759C623ADD901894789F197 /* WXApiObject.h */,
+				0B5E523FBC7240F50CAA30F29189C3D8 /* Frameworks */,
+				8F413D0321DEF58F0DC7B0A9CB4DBAAB /* Support Files */,
 			);
 			name = WechatOpenSDK;
 			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		28D5FDE3E84638B0BF3653EA9CECF2DF /* Pods-TTSocialModuleDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				F9B39F24F662A89975B32B14747F9925 /* Pods */,
-				2B30EC3540421B738F6C02BA91B8879A /* Products */,
-				2BAA120B6CEB1A3D5B6BA006D0E51BAC /* Targets Support Files */,
+				BD4FA7E5A4D6289EA62FBA1065B3F835 /* Pods-TTSocialModuleDemoTests-acknowledgements.markdown */,
+				D639BE465F660945DDAA419193AC5A79 /* Pods-TTSocialModuleDemoTests-acknowledgements.plist */,
+				DA37BA3EED72CD3B5960E9AE5A5A82BA /* Pods-TTSocialModuleDemoTests-dummy.m */,
+				3DA74637DE715ECD8CA92E80B4386A44 /* Pods-TTSocialModuleDemoTests.debug.xcconfig */,
+				C6C20DD0843F14D9AAA63CEE819DD57C /* Pods-TTSocialModuleDemoTests.release.xcconfig */,
 			);
+			name = "Pods-TTSocialModuleDemoTests";
+			path = "Target Support Files/Pods-TTSocialModuleDemoTests";
 			sourceTree = "<group>";
 		};
-		C0DD28DF5C0F9B8A334CC08EE0414669 /* Frameworks */ = {
+		2D87E7A3A7DFE06F4DD750B8D23DBF00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1890FB490500AE693B11EFAB0D608BB1 /* libWeChatSDK.a */,
+				FC04DA82505734F789375EED9C6E5FD7 /* libWeiboSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C50A39F3FA5CD560BACD22758F74F011 /* Pods-TTSocialModuleDemo */ = {
+		45903E3BFA32BF2C92D4543F30A96386 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1951876F74CBF3C3F175C45470A03CDA /* Pods-TTSocialModuleDemo-acknowledgements.markdown */,
-				185B4DD83923663327C6007FD8FC8268 /* Pods-TTSocialModuleDemo-acknowledgements.plist */,
-				ABB98D4F4C72C69C198B110BEAD799C3 /* Pods-TTSocialModuleDemo-dummy.m */,
-				B86F6A2E055E49BE77A503B62A21F9BA /* Pods-TTSocialModuleDemo-frameworks.sh */,
-				6C6E4A03745182C618E50AB7532BB694 /* Pods-TTSocialModuleDemo-resources.sh */,
-				409F0785B2BDD10681C11292DB2525D9 /* Pods-TTSocialModuleDemo.debug.xcconfig */,
-				5AA9527B9174DA58D14F53D0D51CC060 /* Pods-TTSocialModuleDemo.release.xcconfig */,
+				54AA2A9A7583736335D708E070097046 /* WeiboSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5A94FF7CDAC0AD884FEDB2B9456632A7 /* Pods-TTSocialModuleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6AD385F1647756800179CB64A966683E /* Pods-TTSocialModuleDemo-acknowledgements.markdown */,
+				158CB1D4848771D86F6F56DD2FDB0F51 /* Pods-TTSocialModuleDemo-acknowledgements.plist */,
+				3CC239825A758669D751DD5EC6553BF4 /* Pods-TTSocialModuleDemo-dummy.m */,
+				88BF02DC1547F08AA2BA9C7FE6AE4015 /* Pods-TTSocialModuleDemo-resources.sh */,
+				9B6AA7288E123CF258F850D02F7DE568 /* Pods-TTSocialModuleDemo.debug.xcconfig */,
+				DB50E2E5B549F3D6B297C7D20CD7BCDC /* Pods-TTSocialModuleDemo.release.xcconfig */,
 			);
 			name = "Pods-TTSocialModuleDemo";
 			path = "Target Support Files/Pods-TTSocialModuleDemo";
 			sourceTree = "<group>";
 		};
-		F9B39F24F662A89975B32B14747F9925 /* Pods */ = {
+		654E67EC5656C0D768C91DA02466EBE4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				410390C6B0AFE2CEAB55B0DBDD4F57C9 /* WechatOpenSDK */,
-				2410B71AB6C0E243088EE1EFEB69A35D /* Weibo_SDK */,
+				7A9739A6C76B96B04D273657F99A4CAC /* LICENSE */,
+				C186794D9052E0A8E0B45A7AC599075B /* README.md */,
+				7AC7F5BA2EB45A5EC361ADF8F5E30070 /* TTSocialModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8B0AF683BA55B6700190B5974F57476C /* TTSocialModule */ = {
+			isa = PBXGroup;
+			children = (
+				92EE72C167993357643D26B69A6D07AA /* Base */,
+				00A4A709FF7DFDF67D9183627BB4A967 /* Handler */,
+				D3FAD27A99AB3DC12EF180B02FA7E179 /* Manager */,
+				654E67EC5656C0D768C91DA02466EBE4 /* Pod */,
+				8F24940A0983169A6DC037C2A374BDA7 /* Shared */,
+				8B8CB2708AE18DBE98C55FA547E9DE88 /* Support Files */,
+			);
+			name = TTSocialModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8B8CB2708AE18DBE98C55FA547E9DE88 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				389B8FC378CD087D3A21155211A6CEF8 /* TTSocialModule.xcconfig */,
+				FB01489A773908C145CB438913651995 /* TTSocialModule-dummy.m */,
+				20D3B184584DB22856614E33359666D0 /* TTSocialModule-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "TTSocialModuleDemo/Pods/Target Support Files/TTSocialModule";
+			sourceTree = "<group>";
+		};
+		8E475D737A6376902D193E6110238DDD /* Weibo_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				2081F60EE4CCC0A0CA85AAF0A5DA724C /* WBHttpRequest.h */,
+				2E82CD748BB3629AEA293F8AA7E94FF9 /* WeiboSDK.h */,
+				2D87E7A3A7DFE06F4DD750B8D23DBF00 /* Frameworks */,
+				45903E3BFA32BF2C92D4543F30A96386 /* Resources */,
+				F031F2D8512D51FAB8036926EB3EA609 /* Support Files */,
+			);
+			name = Weibo_SDK;
+			path = Weibo_SDK;
+			sourceTree = "<group>";
+		};
+		8F24940A0983169A6DC037C2A374BDA7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7AE55DF6736E7506B64C66A5E54D7FE8 /* TTShared.h */,
+				9E40631FCA9C3F4ED2384BF8AFE0218D /* TTShared.m */,
+				D5C0FB5AC7216867CEA621F57469A210 /* TTWeChatShared.h */,
+				E4D8DDA5F696F7A75C8357A47E5E65D5 /* TTWeChatShared.m */,
+				5B1FD4196B945EF444E74132FCBA81D8 /* TTWeiboShared.h */,
+				D5CE215E5A758749D65E770988F0B83D /* TTWeiboShared.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		8F413D0321DEF58F0DC7B0A9CB4DBAAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55F818DC49BD770F16F7D31580851B7F /* WechatOpenSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		92EE72C167993357643D26B69A6D07AA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				012108E9C9F644BEC5BA772948F9CE1D /* TTBehavior.h */,
+				AE1F8499EEB78BE82E442BC6662DA4B9 /* TTSocialDefine.h */,
+				C4213BA15E25C1FE167FE26BECCE92CB /* TTSocialMessageObject.h */,
+				3152680F5FFB3702C800570DDB4356E9 /* TTSocialMessageObject.m */,
+				651EC068AA8073A11B91F83F3586E5CB /* TTSocialResponse.h */,
+				E5ADCB8CD847F82DCF8531B9E7B4AB5B /* TTSocialResponse.m */,
+				6FA5176D940B12C24FC4829E3D3BF876 /* TTSocialUtil.h */,
+				961BB725098749F515E669F64ED3AFB0 /* TTSocialUtil.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		AB59A149D3C976D1D099730386C03DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D46EBDFA3E40DBC131550674438B2ACD /* libPods-TTSocialModuleDemo.a */,
+				BA8F74BB03431489BDB40EBDCDFE56A5 /* libPods-TTSocialModuleDemoTests.a */,
+				F0A1D2E346B00239516EECB41C1B18C7 /* libTTSocialModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D62F0E575AFFACF2192F33AAC8F359 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20B37F72CB1F436B5210D7B165AEBD0C /* WechatOpenSDK */,
+				8E475D737A6376902D193E6110238DDD /* Weibo_SDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FF67C8F36447305DC4702981B58B8B7E /* Frameworks */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				DE7FA385940233D79AAC24C71480CCCA /* libWeiboSDK.a */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EE8E89A81D35357CA852902F679F9CC7 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				C2D62F0E575AFFACF2192F33AAC8F359 /* Pods */,
+				AB59A149D3C976D1D099730386C03DB1 /* Products */,
+				1793D22E1D95E3271480CFFA05BB6342 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FAD27A99AB3DC12EF180B02FA7E179 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				62705D9B36D00FA36A71D58707EA5BB1 /* TTSocialManager.h */,
+				06C9488BAA1DF33E59675E7C58445AF1 /* TTSocialManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EE8E89A81D35357CA852902F679F9CC7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AF683BA55B6700190B5974F57476C /* TTSocialModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F031F2D8512D51FAB8036926EB3EA609 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F8071237F6E79F897731ADFA12A3A /* Weibo_SDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Weibo_SDK";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		3EBF1126F49F7E9A6561F5FFC6FBD0E1 /* Pods-TTSocialModuleDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93AB56B21DBA4D7C40E1CE4D5B91691B /* Build configuration list for PBXNativeTarget "Pods-TTSocialModuleDemoTests" */;
-			buildPhases = (
-				3DA8445E892F8CB99A7526F1736794D2 /* Sources */,
-				8C958C385938B6B7C9E0005A9DD8FDBD /* Frameworks */,
+/* Begin PBXHeadersBuildPhase section */
+		4A244E70418B06C87072B1D66106E7E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F87A50C779A4F0674A7C6DF2113B8A7 /* TTBehavior.h in Headers */,
+				D1F0F86B4885F332E297933836A03049 /* TTShared.h in Headers */,
+				BBE4ABD88D0C4697405B176B7C7BA74C /* TTSocialDefine.h in Headers */,
+				0A4CE5B2C0D4B5AED3C540112BA10A61 /* TTSocialHandler.h in Headers */,
+				2166704520BC4FA41598F554810878E5 /* TTSocialManager.h in Headers */,
+				21E1757E8B5804AE40B8E62D2DD1613B /* TTSocialMessageObject.h in Headers */,
+				8C413AFC113926DFEB996FC7DC502A95 /* TTSocialResponse.h in Headers */,
+				B24E83E6A457E5920FE5B67ABBDD044C /* TTSocialUtil.h in Headers */,
+				2CEA7FDF98BC0F4D5BDC3AA313EE2C66 /* TTWeChatHandler.h in Headers */,
+				E21043BFBC8A6398C2654E7C1F44D665 /* TTWeChatShared.h in Headers */,
+				1D56B38C33C5CC56D23211C5B724F7B6 /* TTWeiboHandler.h in Headers */,
+				156D581F91591AD0857FC0BDD0D6841A /* TTWeiboShared.h in Headers */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-				3F8C33C37BFB595108DEC97E6D2DDCA6 /* PBXTargetDependency */,
-			);
-			name = "Pods-TTSocialModuleDemoTests";
-			productName = "Pods-TTSocialModuleDemoTests";
-			productReference = 23FC023235B7465587FDE8F6E2FCDE01 /* libPods-TTSocialModuleDemoTests.a */;
-			productType = "com.apple.product-type.library.static";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58DF829EBA34142905A7E80A16C0DA73 /* Pods-TTSocialModuleDemo */ = {
+		8550909B97D6A77AF084610B3DE5DE55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52448BF6F697339EFB3ADF8D1A94A90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ADCE45E05B7BD9F6867E2016F9DE456E /* Pods-TTSocialModuleDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A4524E2704945D1DBDE0A22562D06EE /* Build configuration list for PBXNativeTarget "Pods-TTSocialModuleDemo" */;
+			buildConfigurationList = 63FF415E17F115F35D008F07F176A4FB /* Build configuration list for PBXNativeTarget "Pods-TTSocialModuleDemo" */;
 			buildPhases = (
-				628947BAD6EC952E93CFD6DF8C9F7F48 /* Sources */,
-				C19A9EEB6211A2D31E7908E2015CB125 /* Frameworks */,
+				8550909B97D6A77AF084610B3DE5DE55 /* Headers */,
+				F206B8F3ACFEB1AB0C6E1D2B1E66CA6D /* Sources */,
+				CE6D4A2792F8BE3E25F3958BA17EC539 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9AA680285EBC954C5F68DD471D299445 /* PBXTargetDependency */,
+				464BA1B3D935C0032370C3ED49B4D065 /* PBXTargetDependency */,
+				E5F00DF0734D3E03A5B7358ECF2D6041 /* PBXTargetDependency */,
 			);
 			name = "Pods-TTSocialModuleDemo";
 			productName = "Pods-TTSocialModuleDemo";
-			productReference = 02A6CFC7BF65DC70DAFF9F84247C56DA /* libPods-TTSocialModuleDemo.a */;
+			productReference = D46EBDFA3E40DBC131550674438B2ACD /* libPods-TTSocialModuleDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF0438BCC0F8E6BBA4244C06741F4791 /* Pods-TTSocialModuleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5890053361029EDDF036155846895F6 /* Build configuration list for PBXNativeTarget "Pods-TTSocialModuleDemoTests" */;
+			buildPhases = (
+				B52448BF6F697339EFB3ADF8D1A94A90 /* Headers */,
+				40377378687829987174F68A96C276E5 /* Sources */,
+				F919B3D3EA31258655E1B77372CB946E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16477D53F51DD77C64688A9FC31D803 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTSocialModuleDemoTests";
+			productName = "Pods-TTSocialModuleDemoTests";
+			productReference = BA8F74BB03431489BDB40EBDCDFE56A5 /* libPods-TTSocialModuleDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D47088D8B9FA07CB212A6141B6D8D86E /* TTSocialModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC11939E247B49BD33BE755174EE74D /* Build configuration list for PBXNativeTarget "TTSocialModule" */;
+			buildPhases = (
+				4A244E70418B06C87072B1D66106E7E8 /* Headers */,
+				1D99507DBED83407AE3F000BB36CE9B2 /* Sources */,
+				869F4ED490A142620F1DDA0A8366C877 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AAECAB00CAD86669925F988EF6B0E97 /* PBXTargetDependency */,
+				741070864060BF7B0A4C645D5EFEDC68 /* PBXTargetDependency */,
+			);
+			name = TTSocialModule;
+			productName = TTSocialModule;
+			productReference = F0A1D2E346B00239516EECB41C1B18C7 /* libTTSocialModule.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2B30EC3540421B738F6C02BA91B8879A /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AB59A149D3C976D1D099730386C03DB1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58DF829EBA34142905A7E80A16C0DA73 /* Pods-TTSocialModuleDemo */,
-				3EBF1126F49F7E9A6561F5FFC6FBD0E1 /* Pods-TTSocialModuleDemoTests */,
+				ADCE45E05B7BD9F6867E2016F9DE456E /* Pods-TTSocialModuleDemo */,
+				BF0438BCC0F8E6BBA4244C06741F4791 /* Pods-TTSocialModuleDemoTests */,
+				D47088D8B9FA07CB212A6141B6D8D86E /* TTSocialModule */,
+				3923A04B0B2CB2F2F76B4F17B4581449 /* WechatOpenSDK */,
+				429A8066EE660F65D3101499EE00FD53 /* Weibo_SDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3DA8445E892F8CB99A7526F1736794D2 /* Sources */ = {
+		1D99507DBED83407AE3F000BB36CE9B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF33A6B0D8C2F4B8F61EC7DAD8AABA2 /* Pods-TTSocialModuleDemoTests-dummy.m in Sources */,
+				2331EFD468733B83F03152C9499B2A48 /* TTShared.m in Sources */,
+				8D13A2310CDF19AF2E4959D0B14DCEAB /* TTSocialHandler.m in Sources */,
+				4ACFB57F39092B7696E0341D56B4D5EB /* TTSocialManager.m in Sources */,
+				8B96C42CECAE06BB9F8D6F5F9B6AA2EC /* TTSocialMessageObject.m in Sources */,
+				6FDA0523D65A018DF8046091599AA8E6 /* TTSocialModule-dummy.m in Sources */,
+				CC90925AC19E1FEC6DE4122D79326D47 /* TTSocialResponse.m in Sources */,
+				4C76C67BA8B11F08D015B71EABAD2BB3 /* TTSocialUtil.m in Sources */,
+				526C3C563B69E67AC738835B4AA74D87 /* TTWeChatHandler.m in Sources */,
+				B9F87BA960AFD261C137048F15C72B42 /* TTWeChatShared.m in Sources */,
+				1324CFC2CC14770229009E4F8BBA42AC /* TTWeiboHandler.m in Sources */,
+				5C83DF72A99CB5EAB66EA570276E3901 /* TTWeiboShared.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		628947BAD6EC952E93CFD6DF8C9F7F48 /* Sources */ = {
+		40377378687829987174F68A96C276E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D18CAF1C69FB34F87664BA43773C5513 /* Pods-TTSocialModuleDemo-dummy.m in Sources */,
+				A74840B862599AFD9E1C6186FA7CF6FD /* Pods-TTSocialModuleDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F206B8F3ACFEB1AB0C6E1D2B1E66CA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9090285747FF04A724213AB91FAD6D0F /* Pods-TTSocialModuleDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3F8C33C37BFB595108DEC97E6D2DDCA6 /* PBXTargetDependency */ = {
+		464BA1B3D935C0032370C3ED49B4D065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 3923A04B0B2CB2F2F76B4F17B4581449 /* WechatOpenSDK */;
+			targetProxy = C30DFDAE9D82C7908EAACC49D0B23802 /* PBXContainerItemProxy */;
+		};
+		741070864060BF7B0A4C645D5EFEDC68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Weibo_SDK;
+			target = 429A8066EE660F65D3101499EE00FD53 /* Weibo_SDK */;
+			targetProxy = 50C4A6A81881488266B0E4B237E7FAA5 /* PBXContainerItemProxy */;
+		};
+		7AAECAB00CAD86669925F988EF6B0E97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 3923A04B0B2CB2F2F76B4F17B4581449 /* WechatOpenSDK */;
+			targetProxy = EEA3021AABB28B79249C8DFC678B2A82 /* PBXContainerItemProxy */;
+		};
+		9AA680285EBC954C5F68DD471D299445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTSocialModule;
+			target = D47088D8B9FA07CB212A6141B6D8D86E /* TTSocialModule */;
+			targetProxy = 287C9B8F4D2EED3A55C37969E6D3C721 /* PBXContainerItemProxy */;
+		};
+		E5F00DF0734D3E03A5B7358ECF2D6041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Weibo_SDK;
+			target = 429A8066EE660F65D3101499EE00FD53 /* Weibo_SDK */;
+			targetProxy = 93321D82D4D30AE630DE404A0051CDA4 /* PBXContainerItemProxy */;
+		};
+		F16477D53F51DD77C64688A9FC31D803 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TTSocialModuleDemo";
-			target = 58DF829EBA34142905A7E80A16C0DA73 /* Pods-TTSocialModuleDemo */;
-			targetProxy = 29B116C825B4E6EFA0D2D1281835E4C4 /* PBXContainerItemProxy */;
+			target = ADCE45E05B7BD9F6867E2016F9DE456E /* Pods-TTSocialModuleDemo */;
+			targetProxy = E4FA7EFB665CBEE2BE43E337F4AAA181 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+		0CD345EABDD4C195E877B3D003F07179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F818DC49BD770F16F7D31580851B7F /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1561417D32275E553C4BA287556F278B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2F8071237F6E79F897731ADFA12A3A /* Weibo_SDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EAA3D5D0208A7FB6C108EC7379BD26A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2F8071237F6E79F897731ADFA12A3A /* Weibo_SDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,8 +701,66 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -336,140 +781,37 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		CB94D4A7D4B0B4414C0DCD7DBCD65EE7 /* Debug */ = {
+		9568601F8BD1BB7192CC8C9EFDFA47F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6DD1A12AD8D17A96BAD06A2552A3561 /* Pods-TTSocialModuleDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 55F818DC49BD770F16F7D31580851B7F /* WechatOpenSDK.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CD7482B1EDDAD2EBD208BBCF5FA661C4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 409F0785B2BDD10681C11292DB2525D9 /* Pods-TTSocialModuleDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DE9BACD74C432EB50F7F397022468A5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AA9527B9174DA58D14F53D0D51CC060 /* Pods-TTSocialModuleDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"@executable_path/Frameworks",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = Debug;
 		};
-		FF112152CA72BA444DF5CE144B33203A /* Release */ = {
+		ACAF9B060BE362DC090518A8D14E2DA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 982D43E987430E1C76E7EBF0D4E600A5 /* Pods-TTSocialModuleDemoTests.release.xcconfig */;
+			baseConfigurationReference = DB50E2E5B549F3D6B297C7D20CD7BCDC /* Pods-TTSocialModuleDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -488,38 +830,176 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		C0E01913F557309677C498709CE5C38F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389B8FC378CD087D3A21155211A6CEF8 /* TTSocialModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TTSocialModule/TTSocialModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TTSocialModule;
+				PRODUCT_NAME = TTSocialModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5DB5F7D29A4746CCCEC3E33A4953E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C20DD0843F14D9AAA63CEE819DD57C /* Pods-TTSocialModuleDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7029D0B5F9E3D2E3D92E9F5EB08AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA74637DE715ECD8CA92E80B4386A44 /* Pods-TTSocialModuleDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5E9B87B2DC358099482F4803832E055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6AA7288E123CF258F850D02F7DE568 /* Pods-TTSocialModuleDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F324911D9B809CD000E62BA6BB532A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389B8FC378CD087D3A21155211A6CEF8 /* TTSocialModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TTSocialModule/TTSocialModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TTSocialModule;
+				PRODUCT_NAME = TTSocialModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		1202E393D5EF6CB6E3A7BCC7D0B975E3 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
-				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+				9568601F8BD1BB7192CC8C9EFDFA47F0 /* Debug */,
+				0CD345EABDD4C195E877B3D003F07179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A4524E2704945D1DBDE0A22562D06EE /* Build configuration list for PBXNativeTarget "Pods-TTSocialModuleDemo" */ = {
+		31C28255136A4A3B0B5B1560DB0CA94B /* Build configuration list for PBXAggregateTarget "Weibo_SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD7482B1EDDAD2EBD208BBCF5FA661C4 /* Debug */,
-				DE9BACD74C432EB50F7F397022468A5E /* Release */,
+				5EAA3D5D0208A7FB6C108EC7379BD26A /* Debug */,
+				1561417D32275E553C4BA287556F278B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93AB56B21DBA4D7C40E1CE4D5B91691B /* Build configuration list for PBXNativeTarget "Pods-TTSocialModuleDemoTests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB94D4A7D4B0B4414C0DCD7DBCD65EE7 /* Debug */,
-				FF112152CA72BA444DF5CE144B33203A /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63FF415E17F115F35D008F07F176A4FB /* Build configuration list for PBXNativeTarget "Pods-TTSocialModuleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E9B87B2DC358099482F4803832E055 /* Debug */,
+				ACAF9B060BE362DC090518A8D14E2DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC11939E247B49BD33BE755174EE74D /* Build configuration list for PBXNativeTarget "TTSocialModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F324911D9B809CD000E62BA6BB532A9F /* Debug */,
+				C0E01913F557309677C498709CE5C38F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5890053361029EDDF036155846895F6 /* Build configuration list for PBXNativeTarget "Pods-TTSocialModuleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7029D0B5F9E3D2E3D92E9F5EB08AEA /* Debug */,
+				C5DB5F7D29A4746CCCEC3E33A4953E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

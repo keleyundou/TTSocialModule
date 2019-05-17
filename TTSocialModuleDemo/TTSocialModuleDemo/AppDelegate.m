@@ -12,7 +12,7 @@
 
 #import "AppDelegate.h"
 
-#import "TTSocialManager.h"
+#import <TTSocialManager.h>
 
 #define WECHAT_APPKEY @"xxxx"
 #define WEIBO_APPKEY @"xxxx"
